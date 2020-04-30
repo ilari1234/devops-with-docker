@@ -1,0 +1,4 @@
+Ilari-MBP-2:~ ilarilehtonen$ docker ps -as
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES               SIZE
+Ilari-MBP-2:~ ilarilehtonen$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
