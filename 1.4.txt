@@ -1,0 +1,11 @@
+docker run -d --rm -it devopsdockeruh/exec_bash_exercise
+docker container ls
+docker logs -f kind_leakey
+^C
+docker exec -it kind_leakey bash
+tail -f ./logs.txt
+exit
+docker stop kind_leakey
+
+Secret message is:
+"Docker is easy"
